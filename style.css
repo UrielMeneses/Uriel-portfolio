@@ -1,8 +1,6 @@
-body {background-color: salmon;}
-
 /* This will display the Img Banner */
-.odesza_mfnd_header {
-    background-image: url(https://bettyandkora.files.wordpress.com/2014/03/odesza_mfnd_header.jpg) no-repeat center center fixed;
+.container {
+    background-image: url("https://bettyandkora.files.wordpress.com/2014/03/odesza_mfnd_header.jpg") no-repeat center center fixed;
     background-position: center;
     width: 300px;
 }
