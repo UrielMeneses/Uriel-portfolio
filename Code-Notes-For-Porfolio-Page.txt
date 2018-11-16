@@ -1,0 +1,24 @@
+<!--This is a html code for copy right logo-->
+&copy;2017 UrielMeneses
+
+<!--this is css code for making links fade into different colors when you hover over them with mouse-->
+a:hover {color:/*choose your desired color*/; transition:0.75s /*control how fast it fades into a new color*/;}
+
+<!--how to properly add a fixed background to a webpage in html(with style) and css-->
+		<!--html code-->
+<div class="story-banner bg-load" data-bg="/images/story-banner.jpg" style="background-image: url(&quot;/images/story-banner.jpg&quot;);">&nbsp;</div>
+<!--css code-->
+.story-banner bg-load {
+	background-color: #669;
+	display: block;
+	background-position: 50% 50px;
+	background-position: 50% 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+	-ms-background-size: cover;
+	background-attachment: fixed;
+	height: 40rem;
+}

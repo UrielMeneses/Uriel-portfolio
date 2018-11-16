@@ -1,0 +1,13 @@
+body {background-color: salmon;}
+
+/* This will display the Img Banner */
+.odesza_mfnd_header {
+    background-image: url(https://bettyandkora.files.wordpress.com/2014/03/odesza_mfnd_header.jpg) no-repeat center center fixed;
+    background-position: center;
+    width: 300px;
+}
+
+/*This will change the color of the Home link, to yellow, when you hover over it*/
+h1, a:hover {color: yellow; transition: 0.75s;}
+
+.panel-heading {text-align: center;}
